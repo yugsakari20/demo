@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.nav-item:hover{
+    color: rgb(20, 219, 20);;
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+}
+.search{
+    height: 45px;
+    border: 2px solid  rgb(20, 219, 20);;
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+}
+.btn1{
+    height: 45px;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: rgb(20, 219, 20);
+}
+.fa-bag-shopping{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.fa-bag-shopping:hover{
+    color: rgb(20, 219, 20);
+}
+.main{
+    background: url(./imgs/m1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 80px;
+}
+.box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px; 
+  }
+.main P{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.mbtn{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.mbtn:hover{
+    background-color: rgb(13, 172, 13);
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.mbtn1:hover{
+    background-color: rgb(20, 219, 20);
+    border: none;
+    color: white;
+}
+.about{
+    background: url(./imgs/abut.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+.about h1{
+    font-size: 80px;
+}
+.wellcome{
+    background: rgb(20, 219, 20);
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+.wellcome h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.wellcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.wellcome i{
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+.wellcome h2{
+    font-weight: lighter;
+    padding: 10px;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+
+}
+.product .card-body{
+    border: 1px solid gray;
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 1px;
+    border: none;
+    transition: .4s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+.store .card:hover.per1{
+    color: white;
+}
+.text-white{
+    background: rgb(20, 219, 20);
+}
